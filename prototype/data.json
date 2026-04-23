@@ -1,0 +1,194 @@
+{
+  "engagement": {
+    "name": "Patient Acquisition & Growth Agent",
+    "client": "Hospital Client",
+    "pilot_date": "2026-06-17",
+    "current_week": 3
+  },
+  "milestones": [
+    {
+      "id": "M1",
+      "name": "Project Kickoff",
+      "week": 1,
+      "owner": "Delivery Lead",
+      "workstream": "WS1 — Requirements & Workflow Discovery",
+      "status": "Complete",
+      "blocked": false,
+      "blocker_reason": ""
+    },
+    {
+      "id": "M2",
+      "name": "Discovery & Requirements Alignment",
+      "week": 2,
+      "owner": "Delivery Lead",
+      "workstream": "WS1 — Requirements & Workflow Discovery",
+      "status": "Complete",
+      "blocked": false,
+      "blocker_reason": ""
+    },
+    {
+      "id": "M3",
+      "name": "Technical Design Checkpoint",
+      "week": 3,
+      "owner": "Integration Engineer",
+      "workstream": "WS2 — Integrations & Scheduling Systems",
+      "status": "In Progress",
+      "blocked": true,
+      "blocker_reason": "EHR vendor sandbox not yet provisioned — escalated to client IT on 2026-04-22"
+    },
+    {
+      "id": "M4",
+      "name": "Compliance Review Open",
+      "week": 4,
+      "owner": "Compliance Lead",
+      "workstream": "WS4 — Compliance & Privacy Review",
+      "status": "In Progress",
+      "blocked": false,
+      "blocker_reason": ""
+    },
+    {
+      "id": "M5",
+      "name": "Prototype / Integration Demo",
+      "week": 5,
+      "owner": "Integration Engineer",
+      "workstream": "WS2 — Integrations & Scheduling Systems",
+      "status": "Not Started",
+      "blocked": true,
+      "blocker_reason": "Depends on M3 sandbox access — at risk if vendor response delayed beyond Week 3"
+    },
+    {
+      "id": "M6",
+      "name": "QA & Internal Review",
+      "week": 6,
+      "owner": "QA Lead",
+      "workstream": "WS5 — QA & Pilot Readiness",
+      "status": "Not Started",
+      "blocked": false,
+      "blocker_reason": ""
+    },
+    {
+      "id": "M7",
+      "name": "Launch-Readiness Review",
+      "week": 7,
+      "owner": "Delivery Lead",
+      "workstream": "WS5 — QA & Pilot Readiness",
+      "status": "Not Started",
+      "blocked": false,
+      "blocker_reason": ""
+    },
+    {
+      "id": "M8",
+      "name": "Pilot Go-Live",
+      "week": 8,
+      "owner": "Delivery Lead",
+      "workstream": "WS6 — Rollout & Performance Monitoring",
+      "status": "Not Started",
+      "blocked": false,
+      "blocker_reason": ""
+    }
+  ],
+  "readiness_criteria": [
+    {
+      "category": "Integration",
+      "criterion": "Scheduling system and calendar platform confirmed",
+      "owner": "Integration Engineer",
+      "status": "Complete"
+    },
+    {
+      "category": "Integration",
+      "criterion": "API write access for appointment creation confirmed",
+      "owner": "Integration Engineer",
+      "status": "In Progress"
+    },
+    {
+      "category": "Integration",
+      "criterion": "Sandbox environment provisioned and accessible",
+      "owner": "Client IT",
+      "status": "Blocked"
+    },
+    {
+      "category": "Integration",
+      "criterion": "End-to-end booking demo successful in sandbox",
+      "owner": "Integration Engineer",
+      "status": "Not Started"
+    },
+    {
+      "category": "Compliance",
+      "criterion": "HIPAA data flow assessment complete",
+      "owner": "Compliance Lead",
+      "status": "In Progress"
+    },
+    {
+      "category": "Compliance",
+      "criterion": "BAA confirmed with AI platform vendor",
+      "owner": "Compliance Lead",
+      "status": "In Progress"
+    },
+    {
+      "category": "Compliance",
+      "criterion": "TCPA opt-in/opt-out mechanism approved",
+      "owner": "Compliance Lead",
+      "status": "Not Started"
+    },
+    {
+      "category": "Compliance",
+      "criterion": "Compliance sign-off memo finalized",
+      "owner": "Compliance Lead",
+      "status": "Not Started"
+    },
+    {
+      "category": "Conversation Design",
+      "criterion": "All conversation flows designed and approved",
+      "owner": "Conversation Designer",
+      "status": "In Progress"
+    },
+    {
+      "category": "Conversation Design",
+      "criterion": "Knowledge base reviewed and approved by client operations",
+      "owner": "Conversation Designer",
+      "status": "Not Started"
+    },
+    {
+      "category": "Conversation Design",
+      "criterion": "Escalation and fallback logic documented and approved",
+      "owner": "Conversation Designer",
+      "status": "Not Started"
+    },
+    {
+      "category": "QA",
+      "criterion": "QA test plan executed — all P1 bugs resolved",
+      "owner": "QA Lead",
+      "status": "Not Started"
+    },
+    {
+      "category": "QA",
+      "criterion": "UAT completed with client sign-off",
+      "owner": "QA Lead",
+      "status": "Not Started"
+    },
+    {
+      "category": "Operations",
+      "criterion": "Client staff trained on escalation handling",
+      "owner": "Client Operations Lead",
+      "status": "Not Started"
+    },
+    {
+      "category": "Operations",
+      "criterion": "Production credentials confirmed and tested",
+      "owner": "Integration Engineer",
+      "status": "Not Started"
+    },
+    {
+      "category": "Operations",
+      "criterion": "Monitoring dashboard live and verified",
+      "owner": "Delivery Lead",
+      "status": "Not Started"
+    },
+    {
+      "category": "Operations",
+      "criterion": "Rollback plan documented",
+      "owner": "Delivery Lead",
+      "status": "Not Started"
+    }
+  ]
+}
