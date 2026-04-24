@@ -1,0 +1,65 @@
+PATIENT ACQUISITION & GROWTH AGENT
+Weekly Status Update — Week 3 of 8
+Date: April 23, 2026
+Prepared by: Delivery Lead
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+OVERALL STATUS: 🟡 AT RISK
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+On track overall, but one active blocker on the integration side requires
+client IT action this week to avoid impact to the Week 5 prototype demo.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PROGRESS THIS WEEK
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Completed discovery sessions with front-desk, operations, and clinical
+  lead. Requirements document drafted and circulated for sign-off.
+- Future-state workflow map reviewed with operations team. One open item
+  around same-day slot reservation rules — see Decisions Needed below.
+- Compliance review initiated. HIPAA data flow assessment underway.
+  BAA status with AI platform vendor confirmed as active — no amendment
+  required.
+- Conversation flow design begun for inbound inquiry and dormant outreach
+  paths. Initial drafts shared with Conversation Designer.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+UPCOMING PRIORITIES (WEEK 4)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Finalize and obtain sign-off on requirements document (Delivery Lead +
+  client sponsor)
+- Complete Technical Design Checkpoint once sandbox access is confirmed
+- Begin integration build against EHR API once sandbox is provisioned
+- Complete TCPA opt-in/opt-out review with Compliance Lead
+- Deliver full conversation flow drafts for client review
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+RISKS & BLOCKERS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔴 BLOCKER — EHR Sandbox Not Yet Provisioned
+   The EHR vendor sandbox environment has not been provisioned. This was
+   escalated to client IT on April 22. Without sandbox access by end of
+   Week 4, the prototype demo (M5, Week 5) will slip.
+   Owner: Client IT | Action needed by: April 30
+
+🟡 AT RISK — Scheduling Rules Not Fully Defined
+   Same-day slot reservation policy is unresolved. Conversation design
+   and booking logic cannot be finalized until this is confirmed.
+   Owner: Client Operations | Target: April 28
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DECISIONS NEEDED
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. Same-day slot policy — should the agent be permitted to book same-day
+   appointments, or should these be reserved for front-desk handling?
+   Needed by: April 28 | Owner: Clinical Lead + Operations Manager
+
+2. Pilot patient segment — confirm which patient population and which
+   providers are in scope for the Week 8 pilot (e.g., new patient
+   inquiries only, or include dormant reactivation outreach as well)?
+   Needed by: May 7 | Owner: Client Sponsor
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+NEXT TOUCHPOINT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Weekly steering call: April 30, 2026
+Please come prepared to resolve the two decisions above.

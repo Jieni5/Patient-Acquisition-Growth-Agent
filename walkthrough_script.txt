@@ -1,0 +1,69 @@
+WALKTHROUGH VIDEO SCRIPT
+Patient Acquisition & Growth Agent — Take-Home Assignment
+========================================================
+Target length: under 3 minutes
+
+
+SECTION 1 — Delivery Plan Structure (~15 sec)
+----------------------------------------------
+I structured the engagement across six workstreams — discovery, integration,
+conversation design, compliance, QA, and rollout — running as parallel tracks with
+explicit dependencies, not a linear sequence. Each has a single owner and specific
+outputs that gate downstream work.
+
+
+SECTION 2 — Milestones and Dependencies (~15 sec)
+--------------------------------------------------
+The 8-week plan is built around the critical path. The key decision was opening
+compliance at Week 3, in parallel with the build. In healthcare AI, compliance is
+the most common late blocker — so it gets its own milestone with a hard close date
+before QA, not after.
+
+
+SECTION 3 — Top Risks (~15 sec)
+---------------------------------
+The two highest-impact risks are EHR integration complexity — if the vendor doesn't
+expose write APIs, the agent can't book at all — and compliance exposure. Both are
+mitigated structurally and front-loaded into the first three weeks, not discovered
+at go-live.
+
+
+SECTION 4 — Technical Readiness (~15 sec)
+------------------------------------------
+I focused on scheduling integration because it blocks everything else. The note
+defines exactly what "ready to build" means — required inputs, ten questions that
+must be answered, and a concrete Week 1 action the integration engineer can send
+to client IT immediately.
+
+
+SECTION 5 — The Prototype (~75 sec)
+-------------------------------------
+The prototype is a locally runnable launch-readiness tracker built with Python and
+Streamlit — something a delivery team would open before a weekly steering call.
+
+At the top, a summary bar shows three live metrics: overall readiness percentage,
+blocked milestones, and days to go-live — calculated automatically from the data.
+
+Below that, an editable milestone table covers all eight deliverymilestones. The
+Status column has a dropdown for inline updates, and the Blocker column is free-text
+so escalation context lives right next to the milestone it affects.
+
+Finally, a go/no-go checklist shows 17 launch criteria across five categories —
+Integration, Compliance, Conversation Design, QA, and Operations. Each has a status
+dropdown, category completion percentages update live, and the overall readiness score
+at the top recalculates automatically.
+
+Clicking Save writes everything to the data file and refreshes the page instantly.
+
+
+SECTION 6 — AI Tools (~10 sec)
+--------------------------------
+I used Claude to pressure-test structure, expand written deliverables, and iterate on
+the Streamlit code. I made the judgment calls; Claude handled execution speed.
+
+
+SECTION 7 — Next Steps (~10 sec)
+----------------------------------
+With more time: surface the risk register inside the app, and run a scheduling rules
+workshop with the client's front-desk team to produce actual conversation flow
+diagrams — the artifact the team needs most before any build begins.

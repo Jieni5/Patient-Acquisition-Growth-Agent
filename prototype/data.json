@@ -11,7 +11,7 @@
       "name": "Project Kickoff",
       "week": 1,
       "owner": "Delivery Lead",
-      "workstream": "WS1 — Requirements & Workflow Discovery",
+      "workstream": "WS1 \u2014 Requirements & Workflow Discovery",
       "status": "Complete",
       "blocked": false,
       "blocker_reason": ""
@@ -21,8 +21,8 @@
       "name": "Discovery & Requirements Alignment",
       "week": 2,
       "owner": "Delivery Lead",
-      "workstream": "WS1 — Requirements & Workflow Discovery",
-      "status": "Complete",
+      "workstream": "WS1 \u2014 Requirements & Workflow Discovery",
+      "status": "Not Started",
       "blocked": false,
       "blocker_reason": ""
     },
@@ -31,17 +31,17 @@
       "name": "Technical Design Checkpoint",
       "week": 3,
       "owner": "Integration Engineer",
-      "workstream": "WS2 — Integrations & Scheduling Systems",
-      "status": "In Progress",
-      "blocked": true,
-      "blocker_reason": "EHR vendor sandbox not yet provisioned — escalated to client IT on 2026-04-22"
+      "workstream": "WS2 \u2014 Integrations & Scheduling Systems",
+      "status": "Complete",
+      "blocked": false,
+      "blocker_reason": ""
     },
     {
       "id": "M4",
       "name": "Compliance Review Open",
       "week": 4,
       "owner": "Compliance Lead",
-      "workstream": "WS4 — Compliance & Privacy Review",
+      "workstream": "WS4 \u2014 Compliance & Privacy Review",
       "status": "In Progress",
       "blocked": false,
       "blocker_reason": ""
@@ -51,17 +51,17 @@
       "name": "Prototype / Integration Demo",
       "week": 5,
       "owner": "Integration Engineer",
-      "workstream": "WS2 — Integrations & Scheduling Systems",
-      "status": "Not Started",
+      "workstream": "WS2 \u2014 Integrations & Scheduling Systems",
+      "status": "Blocked",
       "blocked": true,
-      "blocker_reason": "Depends on M3 sandbox access — at risk if vendor response delayed beyond Week 3"
+      "blocker_reason": ""
     },
     {
       "id": "M6",
       "name": "QA & Internal Review",
       "week": 6,
       "owner": "QA Lead",
-      "workstream": "WS5 — QA & Pilot Readiness",
+      "workstream": "WS5 \u2014 QA & Pilot Readiness",
       "status": "Not Started",
       "blocked": false,
       "blocker_reason": ""
@@ -71,7 +71,7 @@
       "name": "Launch-Readiness Review",
       "week": 7,
       "owner": "Delivery Lead",
-      "workstream": "WS5 — QA & Pilot Readiness",
+      "workstream": "WS5 \u2014 QA & Pilot Readiness",
       "status": "Not Started",
       "blocked": false,
       "blocker_reason": ""
@@ -81,7 +81,7 @@
       "name": "Pilot Go-Live",
       "week": 8,
       "owner": "Delivery Lead",
-      "workstream": "WS6 — Rollout & Performance Monitoring",
+      "workstream": "WS6 \u2014 Rollout & Performance Monitoring",
       "status": "Not Started",
       "blocked": false,
       "blocker_reason": ""
@@ -128,7 +128,7 @@
       "category": "Compliance",
       "criterion": "TCPA opt-in/opt-out mechanism approved",
       "owner": "Compliance Lead",
-      "status": "Not Started"
+      "status": "In Progress"
     },
     {
       "category": "Compliance",
@@ -152,13 +152,13 @@
       "category": "Conversation Design",
       "criterion": "Escalation and fallback logic documented and approved",
       "owner": "Conversation Designer",
-      "status": "Not Started"
+      "status": "Complete"
     },
     {
       "category": "QA",
-      "criterion": "QA test plan executed — all P1 bugs resolved",
+      "criterion": "QA test plan executed \u2014 all P1 bugs resolved",
       "owner": "QA Lead",
-      "status": "Not Started"
+      "status": "Complete"
     },
     {
       "category": "QA",
@@ -170,13 +170,13 @@
       "category": "Operations",
       "criterion": "Client staff trained on escalation handling",
       "owner": "Client Operations Lead",
-      "status": "Not Started"
+      "status": "Complete"
     },
     {
       "category": "Operations",
       "criterion": "Production credentials confirmed and tested",
       "owner": "Integration Engineer",
-      "status": "Not Started"
+      "status": "Complete"
     },
     {
       "category": "Operations",
@@ -188,7 +188,7 @@
       "category": "Operations",
       "criterion": "Rollback plan documented",
       "owner": "Delivery Lead",
-      "status": "Not Started"
+      "status": "Blocked"
     }
   ]
 }
